@@ -639,8 +639,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
 h3,
 h4,
 h5,
@@ -753,7 +751,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #b45c34;
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,15 +769,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #b45c34;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #b45c34;
     color: #FFFFFF!important;
 }
 
@@ -813,16 +811,16 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
+/*.bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
+}*/
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1037,81 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+/* AJOUT PERSO DU CSS */ 
+.perso__TexteIntroduction{
+    text-align: center;
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 500;
+}
+.perso__TexteCitation{
+    text-align: center;
+    font-size: 1.3em;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: 500;
+    font-style: italic;
+}
+.perso__TexteCitation-auteur{
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 400;
+}
+.perso__TexteExplication{
+    font-size: 1.2em;
+}
+.Temoignage{
+    padding-top: 50px;
+}
+.perso__TexteAffiliation{
+    color: #FFF;
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+}
+.col-sm-6{
+    margin: 0 auto;
+}
+.espacement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description{
+    font-size: 1em;
+}
+@media (max-width: 767px){
+    .perso__TexteIntroduction{
+        width: 100%;
+    }
+    .perso__TexteCitation{
+        width: 80%;
+    }
+    .perso__TexteCitation-auteur{
+        width: 100%;
+        font-size: 0.9em;
+    }
+    .perso__TexteAffiliation{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.4em;
+        background: #b45c34;
+        border-radius: 20px;
+        padding: 10px 0;
+    }
+    .first{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .images{
+        margin: 0 auto;
+        width: 90%;
+    }
+
 }
